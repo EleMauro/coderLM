@@ -1,0 +1,506 @@
+/* reset para que tenga bien los bordes */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* header */
+
+.probandopadre {
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.probandohijo {
+
+    border: 2px double blanchedalmond width 80px;
+    margin-left: 10px;
+    font-size: 17px;
+}
+
+.inic {
+    padding: 5px 5px;
+}
+
+/* galerias html */
+
+.editgaleria1 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+    height: 300px;
+
+}
+
+
+
+.item {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+}
+
+.item img {
+    width: 100%;
+    max-width: 300px;
+    height: 220px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.item p {
+    font-size: 14px;
+    color: #333;
+}
+
+
+/*
+COLOR FONDO
+background-color: rgb(121, 121, 118);
+
+font-family: 'Times New Roman', Times, serif;
+    color: rgb(24, 14, 63);
+font-size: large;
+
+
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.editgaleria {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    align-items: center;
+
+
+
+}
+
+.editgaleria img {
+    width: 100%;
+    border: black 1px solid;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+
+
+
+/* footer */
+
+
+.footerflex {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.red {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.icono {
+    width: 30px;
+    height: 30px;
+}
+
+
+
+
+
+
+/* Registro/inicio sesion */
+
+
+
+.registro {
+    font-size: medium;
+}
+
+.regis2 {
+    font-size: medium;
+}
+
+
+
+.regis {
+    width: 100%;
+    height: 60px;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: rgb(121, 121, 118);
+
+
+}
+
+
+
+
+/* footer */
+
+
+
+
+
+/* INDEX */
+
+.flexindex {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 30px;
+    padding: 20px;
+}
+
+.flexindex img {
+    width: 520px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.flexindex p {
+
+    font-size: 16px;
+    color: #333;
+    line-height: 1.6;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(24, 14, 63);
+    font-size: large;
+}
+
+
+
+/*
+
+font-family: 'Times New Roman', Times, serif;
+    color: rgb(24, 14, 63);
+font-size: large;
+
+*/
+
+
+
+
+.section3 {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: text-start;
+    justify-content: space-around;
+    margin-top: 25px;
+    padding: 10px 10px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(24, 14, 63);
+    font-size: large;
+
+}
+
+.imgsect3 {
+    width: 50%;
+    border-radius: 10px;
+}
+
+
+.section3 p {
+    font-size: 16px;
+    color: #333;
+    line-height: 1.6;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(24, 14, 63);
+    font-size: large;
+
+}
+
+
+.section2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(24, 14, 63);
+}
+
+
+.section2 img {
+    width: 50%;
+    border-radius: 10px;
+}
+
+.section2 h3 {
+    text-decoration: underline;
+}
+
+
+
+
+.subtitulo2 {
+    color: rgb(24, 14, 63);
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px;
+
+}
+
+
+
+
+.h2principal {
+
+    color: rgb(24, 14, 63);
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 20px;
+    height: 150px;
+
+}
+
+
+main {
+    background-color: rgb(206, 206, 206);
+}
+
+
+.usvip1 {
+    display: block;
+    width: 100%;
+    padding: 3px;
+    background-color: rgb(206, 206, 206);
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+
+.homepcipal {
+    height: 350px;
+    background-color: yellowgreen
+}
+
+
+.lista1 {
+
+    font-size: 20px;
+    padding: 20px;
+
+
+
+}
+
+
+
+header {
+
+    text-align: right;
+    width: 100%;
+    height: 200px;
+    background-image: url(../fotosCosas/logo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 30% 30%;
+}
+
+
+header ul {
+    text-align: left;
+    padding: 10px;
+}
+
+
+
+
+
+
+.img2 {
+
+    width: 40%;
+
+}
+
+.img3 {
+    width: 50%;
+}
+
+
+
+
+.face {
+    width: 50px;
+}
+
+.ig {
+    width: 50px;
+}
+
+footer {
+    background-color: rgb(226, 226, 153);
+}
+
+
+
+.alumno {
+    text-align: center;
+    color: rgb(36, 105, 105);
+    text-decoration: underline double;
+    padding: 5px;
+
+}
+
+
+color: rgb(24, 14, 63);
+font-size: large;
+font-family: 'Times New Roman',
+Times,
+serif;
+padding: 10px;
+
+
+
+
+color: rgb(24, 14, 63);
+text-align: center;
+text-decoration: underline double;
+padding: 10px;
+font-family: 'Times New Roman',
+Times,
+serif;
+font-style: italic;
+
+
+
+
+
+
+.galeria2 {
+    width: 200px;
+    height: 200px;
+}
+
+.galeria5 {
+    width: 200px;
+    height: 200px;
+}
+
+.galeria7 {
+    width: 200px;
+    height: 200px;
+}
+
+
+.h31 {
+    color: brown;
+    text-align: center;
+}
+
+.h32 {
+    color: brown;
+    text-align: center;
+}
+
+.h33 {
+    color: brown;
+    text-align: center;
+}
+
+
+.choco1 {
+    width: 50%;
+}
+
+.choco2 {
+    text-decoration: underline
+}
+
+.cucu {
+    text-decoration: underline
+}
+
+.cucu2 {
+
+    width: 50%;
+}
+
+.gustos1 {
+    text-decoration: underline
+}
+
+.comunes {
+    width: 50%;
+}
+
+
+
+.listasabores {
+    font-size: medium;
+}
+
+.listault {
+    font-size: small;
+}
+
+.padding-box {
+    width: 100px;
+    height: 50px;
+    background-color: lightgray;
+    padding: 20px;
+}
+
+
+.tit1 {
+
+    color: rgb(24, 14, 63);
+    text-align: center;
+    text-decoration: underline double;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+
+.textogaleria{
+    color: white;
+
+}
+
+
+.galepcipal{
+    color: rgb(24, 14, 63);
+    text-align: center;
+    text-decoration: underline double;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    padding-bottom: 20px;
+}
