@@ -7,6 +7,10 @@
 
 /* header */
 
+.header {}
+
+
+
 .probandopadre {
     height: 150px;
     display: flex;
@@ -34,7 +38,6 @@
     gap: 20px;
     padding: 20px;
     height: 300px;
-
 
 }
 
@@ -78,21 +81,6 @@ font-size: large;
 
 
 */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -145,13 +133,6 @@ font-size: large;
     height: 30px;
 }
 
-
-
-
-
-
-
-
 /* footer */
 
 
@@ -162,29 +143,19 @@ font-size: large;
 
 .flexindex {
     display: flex;
-    flex-direction: row-reverse;
     align-items: center;
+    justify-content: space-between;
     gap: 30px;
-    padding: 20px;
-}
-
-.flexindex img {
-    width: 520px;
-    height: auto;
-    border-radius: 10px;
+    padding: 30px;
 }
 
 .flexindex p {
-
-    font-size: 16px;
+    font-size: 18px;
     line-height: 1.6;
-    text-align: center;
-    font-family: 'Times New Roman', Times, serif;
+    max-width: 600px;
     color: rgb(24, 14, 63);
     font-size: large;
 }
-
-
 
 /*
 
@@ -238,8 +209,6 @@ font-size: large;
 
 
 .section3 p {
-    font-size: 16px;
-    color: #333;
     line-height: 1.6;
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
@@ -290,7 +259,6 @@ font-size: large;
     font-family: 'Times New Roman', Times, serif;
     padding: 20px;
     height: 150px;
-
 }
 
 
@@ -319,11 +287,7 @@ main {
     font-size: 20px;
     padding: 20px;
 
-
-
 }
-
-
 
 header {
 
@@ -336,28 +300,22 @@ header {
     background-position: 30% 30%;
 }
 
-
 header ul {
     text-align: left;
     padding: 10px;
 }
 
 
-
-
-
-
 .img2 {
-
-    width: 40%;
-
+    width: 600px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
 }
 
 .img3 {
     width: 50%;
 }
-
-
 
 
 .face {
@@ -378,10 +336,12 @@ footer {
     text-align: center;
     color: rgb(36, 105, 105);
     text-decoration: underline double;
-    padding: 5px;
+    padding: 10px;
 
 }
 
+
+/* 
 
 color: rgb(24, 14, 63);
 font-size: large;
@@ -401,7 +361,7 @@ font-family: 'Times New Roman',
 Times,
 serif;
 font-style: italic;
-
+/*  */
 
 
 
@@ -453,7 +413,6 @@ font-style: italic;
     flex-direction: row;
     gap: 150px;
     padding: 30px;
-    background-color: black;
 
 }
 
@@ -564,19 +523,10 @@ font-style: italic;
 }
 
 
-
-
-
-
-
-
-
-
-
-
 .especial-casa {
     padding: 20px;
-    background-color: #c2bbb6;
+    background-color: #fffaf5;
+
     border-radius: 12px;
     max-width: 900px;
     margin: 0 auto;
@@ -622,14 +572,6 @@ font-style: italic;
 .choco2 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-
-
-
-
-
-
-
-
 
 
 /* cucuruchos gustos */
@@ -809,14 +751,18 @@ font-style: italic;
 
 }
 
+main {
+    margin-bottom: 350px;
+    background-color: #f1f8e9;
+}
 
 /* registro */
 
 .registro {
     max-width: 500px;
-    margin: 40px auto;
+    margin: auto;
     padding: 25px;
-    background-color: #f1f8e9;
+    background-color: #d6e4c7;
     border-radius: 12px;
     font-family: sans-serif;
 }
@@ -852,22 +798,24 @@ font-style: italic;
     border: none;
     border-radius: 8px;
 
- 
+
 }
 
 
 .titregis {
+    font-size: 25px;
     color: rgb(24, 14, 63);
     text-align: center;
     text-decoration: underline double;
     padding: 10px;
     font-family: 'Times New Roman', Times, serif;
-    font-style: italic;
+    font-style: italic
 }
 
 
 .titregis2 {
     padding: 10px;
+    color: rgb(24, 14, 63);
     font-family: 'Times New Roman', Times, serif;
     font-style: italic;
     padding: 30px 10px;
@@ -882,3 +830,164 @@ font-style: italic;
     text-decoration: underline;
 
 }
+
+
+/* MediaQ inic */
+
+@media (max-width:480px) {
+
+    .seccion1 {
+        padding: 10px;
+        text-align: center;
+        height: 400px;
+
+    }
+
+    .tit1 {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+
+    .h2principal {
+        font-size: 16px;
+        line-height: 1.5;
+        height: 400px;
+    }
+
+    .flexindex {
+        flex-direction: column;
+        padding: 15px;
+        text-align: center;
+    }
+
+    .flexindex p {
+        font-size: 16px;
+        line-height: 1.5;
+    }
+
+    .section2,
+    .section3 {
+        flex-direction: column;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .lista.sabores {
+        font-size: 16px;
+        padding-left: 0;
+    }
+
+    .img3,
+    .imgsect3 {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .section3 p {
+        font-size: 16px;
+    }
+
+    .usvip1 {
+        display: flex;
+        width: 100%;
+        background-color: rgb(206, 206, 206);
+        font-family: Arial, sans-serif;
+        font-size: 14px;
+        flex-wrap: wrap;
+    }
+
+    .section2 img {
+        width: 80%;
+        border-radius: 10px;
+    }
+
+    .gale1 {
+        height: 500px;
+    }
+
+
+    .item p {
+        font-size: 15px;
+        padding: 0 8px;
+    }
+
+    .texto1 {
+        display: none;
+    }
+
+
+
+    .h32 {
+        display: none;
+    }
+
+    .item {
+        width: 100%;
+        display: flex;
+
+    }
+
+
+
+    .item p {
+        font-size: 14px;
+        padding: 8px;
+    }
+
+    .videos {
+        display: none;
+
+    }
+
+    .h33 {
+        display: none;
+
+    }
+
+    .gale5 {
+        display: none;
+    }
+
+    .gale7 {
+        display: none;
+    }
+
+
+
+ .contactop1 {
+    font-size: 14px;
+    padding: 8px;
+  }
+
+  .contacto1 {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .contacto1 iframe {
+    width: 100%;
+    height: 250px;
+  }
+
+  .span1 {
+    font-size: 14px;
+    max-width: 100%;
+    padding: 10px 0;
+  }
+
+  .contactoh1 {
+    font-size: 20px;
+  }
+
+
+
+
+}
+
+
+
+
+
+
+
+/* mediaq fin */
