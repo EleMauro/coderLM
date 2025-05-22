@@ -50,63 +50,62 @@
 
 
     <main>
-        <h1>Bienvenidos a la página de registro de Don Verano!</h1>
-        <h2>No olvides que vas a tener increíbles beneficios</h2>
+        <h1 class="titregis">Bienvenidos a la página de registro de Don Verano!</h1>
+        <h2 class="titregis2">No olvides que vas a tener increíbles beneficios:</h2>
 
-        <ul>
+        <ul class="titregis3">
 
-            <li>Descuentos Semanales</li>
-            <li>Sorteos Mensuales</li>
-            <li>Info por Whatssap o Email sobre ofertas</li>
-            <li>Posibilidad de descuentos vitalicios</li>
+            <li>Descuentos Semanales.</li>
+            <li>Sorteos Mensuales.</li>
+            <li>Info por Whatssap o Email sobre ofertas.</li>
+            <li>Posibilidad de descuentos vitalicios.</li>
 
         </ul>
 
-        <p>Registro:</p>
 
-        <form action="">
-            <label for="">Nombre de Usuario</label>
-            <input type="text">
 
-            <label for="">Contraseña</label>
-            <input type="password" name="" id="">
+       <section class="registro">
+  <h2>Registro de Usuario</h2>
+  
+  <form action="#" method="post">
+    <label for="usuario">Nombre de Usuario:</label>
+    <input type="text" id="usuario" name="usuario" required>
 
-            <label for="">Nombre</label>
-            <input type="">
+    <label for="contrasena">Contraseña:</label>
+    <input type="password" id="contrasena" name="contrasena" required>
 
-            <label for="">Apellido</label>
-            <input type="text" name="" id="">
+    <label for="nombre">Nombre:</label>
+    <input type="text" id="nombre" name="nombre" required>
 
-            <label for="">Edad</label>
-            <input type="text" name="" id="">
+    <label for="apellido">Apellido:</label>
+    <input type="text" id="apellido" name="apellido" required>
 
-            <label for="">Domicilio</label>
-            <input type="text" name="" id="">
+    <label for="edad">Edad:</label>
+    <input type="number" id="edad" name="edad" min="0" required>
 
-            <label for="">F</label>
-            <input type="checkbox" name="" id="">
+    <label for="domicilio">Domicilio:</label>
+    <input type="text" id="domicilio" name="domicilio" required>
 
-            <label for="">M</label>
-            <input type="checkbox" name="" id="">
+    <p>Género:</p>
+    <label><input type="radio" name="genero" value="F" required> Femenino</label>
+    <label><input type="radio" name="genero" value="M"> Masculino</label>
+    <label><input type="radio" name="genero" value="O"> Otro</label>
 
-            <label for="">Email</label>
-            <input type="text" name="" id="">
-            <input type="button" value="Enviar">
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
 
-        </form>
+    <button type="submit">Enviar</button>
+  </form>
+</section>
+
+
 
 
 
 
     </main>
 
-<section class="regis">
-            <p class="registro">No olvides que podes registrarte haciendo click <a
-                    href="../otrasPags/Registro.html">Aqui</a>
-            </p>
-            <p class="regis2">Recibirás nuestras ofertas diarias, además de muchísimos beneficios por ser Cliente
-                Vip!</p>
-        </section>
+
 
 
     <footer>
