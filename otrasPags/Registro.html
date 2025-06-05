@@ -2,140 +2,124 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    
-    
-    
-    <title>Registro</title>
-    <link rel="stylesheet" href="../css/estilos.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+
+  <title>Registro</title>
+  <link rel="stylesheet" href="../css/estnuevos.css">
 </head>
 
 <body>
 
-    <header>
-        <nav>
+  <header>
+    <nav>
+
+      <div class="usvip1">
+        <label for="">Usuario</label>
+        <input class="usuario" type="Usuario">
 
 
-            <div class="usvip1">
-                <label for="">Usuario</label>
-                <input class="usuario" type="Usuario">
+        <label for="">Contraseña</label>
+        <input class="contraseña" type="password" name="" id="">
 
 
-                <label for="">Contraseña</label>
-                <input class="contraseña" type="password" name="" id="">
+        <input type="submit" value="Ingresar">
+      </div>
+
+      <ul class="probandopadre">
+
+        <li class="probandohijo"><a href="../index.html">Home</a></li>
+
+        <li class="probandohijo"><a href="./Galeria.html">Galeria</a></li>
+        <li class="probandohijo"><a href="./Gustos.html">Nuestros Gustos</a></li>
+        <li class="probandohijo"><a href="./Contacto.html">Contacto</a></li>
+        <li class="probandohijo"><a href="#">Registro</a></li>
+
+      </ul>
+    </nav>
+  </header>
 
 
-                <input type="submit" value="Ingresar">
-            </div>
+  <main>
+    <h1 class="titregis">Bienvenidos a la página de registro de Don Verano!</h1>
+    <h2 class="titregis2">No olvides que vas a tener increíbles beneficios:</h2>
+
+    <ul class="titregis3">
+
+      <li>Descuentos Semanales.</li>
+      <li>Sorteos Mensuales.</li>
+      <li>Info por Whatssap o Email sobre ofertas.</li>
+      <li>Posibilidad de descuentos vitalicios.</li>
+
+    </ul>
+
+    <section class="registro">
+      <h2>Registro de Usuario</h2>
+
+      <form action="#" method="post">
+        <label for="usuario">Nombre de Usuario:</label>
+        <input type="text" id="usuario" name="usuario" required>
+
+        <label for="contrasena">Contraseña:</label>
+        <input type="password" id="contrasena" name="contrasena" required>
+
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+
+        <label for="apellido">Apellido:</label>
+        <input type="text" id="apellido" name="apellido" required>
+
+        <label for="edad">Edad:</label>
+        <input type="number" id="edad" name="edad" min="0" required>
+
+        <label for="domicilio">Domicilio:</label>
+        <input type="text" id="domicilio" name="domicilio" required>
+
+        <p>Género:</p>
+        <label><input type="radio" name="genero" value="F" required> Femenino</label>
+        <label><input type="radio" name="genero" value="M"> Masculino</label>
+        <label><input type="radio" name="genero" value="O"> Otro</label>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
 
 
-
-
-            <ul class="probandopadre">
-
-                <li class="probandohijo"><a href="../index.html">Home</a></li>
-
-                <li class="probandohijo"><a href="./Galeria.html">Galeria</a></li>
-                <li class="probandohijo"><a href="./Gustos.html">Nuestros Gustos</a></li>
-                <li class="probandohijo"><a href="./Contacto.html">Contacto</a></li>
-                <li class="probandohijo"><a href="#">Registro</a></li>
-
-            </ul>
-
-        </nav>
-
-
-
-
-
-    </header>
-
-
-    <main>
-        <h1 class="titregis">Bienvenidos a la página de registro de Don Verano!</h1>
-        <h2 class="titregis2">No olvides que vas a tener increíbles beneficios:</h2>
-
-        <ul class="titregis3">
-
-            <li>Descuentos Semanales.</li>
-            <li>Sorteos Mensuales.</li>
-            <li>Info por Whatssap o Email sobre ofertas.</li>
-            <li>Posibilidad de descuentos vitalicios.</li>
-
-        </ul>
-
-
-
-       <section class="registro">
-  <h2>Registro de Usuario</h2>
-
-  <form action="#" method="post">
-    <label for="usuario">Nombre de Usuario:</label>
-    <input type="text" id="usuario" name="usuario" required>
-
-    <label for="contrasena">Contraseña:</label>
-    <input type="password" id="contrasena" name="contrasena" required>
-
-    <label for="nombre">Nombre:</label>
-    <input type="text" id="nombre" name="nombre" required>
-
-    <label for="apellido">Apellido:</label>
-    <input type="text" id="apellido" name="apellido" required>
-
-    <label for="edad">Edad:</label>
-    <input type="number" id="edad" name="edad" min="0" required>
-
-    <label for="domicilio">Domicilio:</label>
-    <input type="text" id="domicilio" name="domicilio" required>
-
-    <p>Género:</p>
-    <label><input type="radio" name="genero" value="F" required> Femenino</label>
-    <label><input type="radio" name="genero" value="M"> Masculino</label>
-    <label><input type="radio" name="genero" value="O"> Otro</label>
-
-    <label for="email">Email:</label>
-    <input type="email" id="email" name="email" required>
-
-    <button type="submit">Enviar</button>
-  </form>
-</section>
+  </main>
 
 
 
 
-
-
-    </main>
-
-
-
-
-    <footer>
-  <div>
-    <p class="alumno">
-      Alumno: Lucas Andres Ivaldi Mauro para 
-      <a href="https://www.coderhouse.com" target="_blank">CoderHouse</a>
-    </p>
-  </div>
-
-  <div class="footerflex">
-    <div class="red">
-      <img class="icono" src="../fotosCosas/facebook.png" alt="Logo Facebook">
-      <p>Seguinos en <a href="http://www.facebook.com" target="_blank">Facebook</a></p>
+  <footer>
+    <div>
+      <p class="alumno">
+        Alumno: Lucas Andres Ivaldi Mauro para
+        <a href="https://www.coderhouse.com" target="_blank">CoderHouse</a>
+      </p>
     </div>
 
-    <div class="red">
-      <img class="icono" src="../fotosCosas/instagram.png" alt="Logo Instagram">
-      <p>Seguinos en <a href="http://www.instagram.com" target="_blank">Instagram</a></p>
-    </div>
-  </div>
+    <div class="footerflex">
+      <div class="red">
+        <img class="icono" src="../fotosCosas/facebook.png" alt="Logo Facebook">
+        <p>Seguinos en <a href="http://www.facebook.com" target="_blank">Facebook</a></p>
+      </div>
 
-  <div class="inic">
-    <p><a href="#">VOLVER AL INICIO</a></p>
-  </div>
-</footer>
+      <div class="red">
+        <img class="icono" src="../fotosCosas/instagram.png" alt="Logo Instagram">
+        <p>Seguinos en <a href="http://www.instagram.com" target="_blank">Instagram</a></p>
+      </div>
+    </div>
+
+    <div class="inic">
+      <p><a href="#">VOLVER AL INICIO</a></p>
+    </div>
+  </footer>
 
 
 </body>
