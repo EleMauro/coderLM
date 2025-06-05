@@ -345,7 +345,7 @@ body {
     border-radius: 12px;
     max-width: 900px;
     margin: 0 auto; 
-}
+
 
 .subtitgustos {
     color: rgb(24, 14, 63);
@@ -358,6 +358,7 @@ body {
     text-align: center;
     font-size: 25px;
     margin-bottom: 50px;
+}
 }
 .sabor-item {
     display: flex;
@@ -673,18 +674,14 @@ body {
     font-family: 'Times New Roman', Times, serif;
     color: rgb(24, 14, 63);
     background-color: rgb(219, 187, 187);
-}
 
-
-.section2 img {
+img {
     width: 50%;
     border-radius: 10px;
-}
-
-.section2 h3 {
+h3 {
     text-decoration: underline;
 }
-
+}
  
 
 .listasabores {
@@ -1077,8 +1074,4 @@ animation-delay: 1.5s;
 }
 
 }
-
-
-// ANIMATE
-
 
