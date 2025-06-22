@@ -53,6 +53,11 @@ ul {
 }
 }
 
+.t1t {
+  flex: 1;
+  font-size: 1rem;
+  line-height: 1.5;
+}
 
 //  TERMINA HEADER
 
@@ -585,12 +590,12 @@ body {
 .row {
     margin-bottom: 100px;
     margin-top: 30px;
-
+  
 
 .card-group {
     text-align: center;
-    margin: 25px;
-    height: 300px;
+    margin: 15px;
+    height: 180px;
 }
 
 
@@ -795,6 +800,8 @@ h3 {
 .row {
     margin-bottom: 100px;
     margin-top: 30px;
+
+
 }
 
 .registro h2 {
@@ -1073,5 +1080,52 @@ animation-delay: 1.5s;
     display: none;
 }
 
+.editgaleria{
+    display: none;
 }
+
+}
+
+
+
+
+/*MEDIAQ TABLET*/
+
+@media(min-width: 481px){
+
+.h2principal{
+    display: none;
+}
+
+.seccion1{
+    display: none;
+}
+}
+
+
+
+
+
+--------------------
+
+@media (min-width:481px) (max-width:768px) {
+
+   
+.h2principal{
+    display: none;
+}
+
+.seccion1{
+    display: none;
+}
+.titulogustos{
+    display: none;
+}
+}
+
+
+
+
+/* variable */
  $fondo: rgb(206, 206, 206),206,206;
+
