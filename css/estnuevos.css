@@ -179,7 +179,7 @@ body {
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
   padding: 20px;
-  height: 350px;
+  height: 760px;
   background-color: rgb(219, 187, 187);
 }
 .editgaleria1 .item {
@@ -728,7 +728,7 @@ body {
     transform: translate(25px);
   }
   25% {
-    color: 0;
+    color: #000;
     transform: rotate(2deg);
   }
   50% {
@@ -740,6 +740,7 @@ body {
     transform: rotate(-2deg);
   }
 }
+
 .h31 {
   animation-name: anim2;
   animation-duration: 5s;
@@ -784,10 +785,8 @@ body {
 ------------------------------
 
 
-
+MEDIA CEL
 ---------------------------------
-
-
 
 @media (max-width: 480px) {
   .seccion1 {
@@ -795,40 +794,44 @@ body {
     text-align: center;
     height: 400px;
   }
-  .flexindex {
-    padding: 15px;
-    text-align: center;
-  }
+
   .flexindex {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: space-between;
     gap: 30px;
     padding: 30px;
-    flex-direction: column;
+    text-align: center;
   }
+
   .flexindex p {
     font-size: 16px;
     line-height: 1.5;
   }
+
   .section2,
   .section3 {
     flex-direction: column;
     padding: 20px;
     text-align: center;
   }
+
   .lista.sabores {
     font-size: 16px;
     padding-left: 0;
   }
+
   .img3,
   .imgsect3 {
     width: 100%;
     margin-top: 20px;
   }
+
   .section3 p {
     font-size: 16px;
   }
+
   .usvip1 {
     display: flex;
     width: 100%;
@@ -837,144 +840,73 @@ body {
     font-size: 14px;
     flex-wrap: wrap;
   }
+
   .section2 img {
     width: 80%;
     border-radius: 10px;
   }
+
   .gale1 {
     height: 500px;
   }
-  .item p {
-    font-size: 15px;
-    padding: 0 8px;
-  }
 
-
-  
   .item {
-    width: 100%;
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
   }
-  .item p {
-    font-size: 14px;
-    padding: 8px;
+
+  .item img {
+    width: 90%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 10px;
   }
-  
+
+  .item p,
+  .texto1,
+  .gale5,
+  .gale7 {
+    font-size: 15px;
+    line-height: 1.6;
+    padding: 10px;
+    text-align: center;
+    max-width: 90%;
+  }
+
   .contactop1 {
     font-size: 14px;
     padding: 8px;
   }
+
   .contacto1 {
     flex-direction: column;
     align-items: flex-start;
   }
+
   .contacto1 iframe {
     width: 100%;
     height: 250px;
   }
+
   .span1 {
     font-size: 14px;
     max-width: 100%;
     padding: 10px 0;
   }
+
   .contactoh1 {
     font-size: 20px;
   }
 
-.editgaleria1 {
+  .editgaleria1 {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 30px;
     padding: 20px;
-  }
-
-  .item {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
-
-  .item img {
-    width: 90%;
-    max-width: 300px;
-    height: auto;
-    border-radius: 10px;
-  }
-.texto15{
-  text-align: center;
-}
-  .texto1,
-  .gale5,
-  .gale7 {
-    font-size: 15px;
-    line-height: 1.6;
-    padding: 10px;
-    text-align: center;
-    max-width: 90%;
-  }
-
-  .h33 {
-    font-size: 20px;
-    text-align: center;
-    margin: 30px auto 20px auto;
-    padding: 10px;
-    line-height: 1.4;
-  }
-
-  .videos {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 20px;
-    padding: 20px;
-    height: 370px;
-  }
-
-  .videos iframe {
-    width: 90%;
-    max-width: 600px;
-    height: auto;
-  }
-
-  .titindex,
-  .titulogustos {
-    font-size: 22px;
-    margin: 20px 0;
-    text-align: center;
-  }
-
-    .editgaleria1 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 30px;
-    padding: 20px;
-  }
-
-  .item {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
-
-  .item img {
-    width: 90%;
-    max-width: 300px;
-    height: auto;
-    border-radius: 10px;
-  }
-
-  .texto1,
-  .gale5,
-  .gale7 {
-    font-size: 15px;
-    line-height: 1.6;
-    padding: 10px;
-    max-width: 90%;
-    text-align: center;
   }
 
   .h33 {
@@ -1008,9 +940,12 @@ body {
     margin: 20px 0;
     text-align: center;
   }
-
+  .editgaleria1{
+    display: none;
+  }
 }
 
+  
 
 /* MEDIAQ TABLET */
 
@@ -1092,5 +1027,158 @@ body {
 }
 
 
+@media (max-width: 480px) {
+  .seccion1 {
+    padding: 10px;
+    text-align: center;
+    height: 400px;
+  }
 
+  .flexindex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    padding: 30px;
+    text-align: center;
+  }
 
+  .flexindex p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+
+  .section2,
+  .section3 {
+    flex-direction: column;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .lista.sabores {
+    font-size: 16px;
+    padding-left: 0;
+  }
+
+  .img3,
+  .imgsect3 {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .section3 p {
+    font-size: 16px;
+  }
+
+  .usvip1 {
+    display: flex;
+    width: 100%;
+    background-color: rgb(206, 206, 206);
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    flex-wrap: wrap;
+  }
+
+  .section2 img {
+    width: 80%;
+    border-radius: 10px;
+  }
+
+  .gale1 {
+    height: 280px;
+    width: ;
+  }
+
+  .item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+  }
+
+  .item img {
+    width: 90%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 10px;
+  }
+
+  .item p,
+  .texto1,
+  .gale5,
+  .gale7 {
+    font-size: 15px;
+    line-height: 1.6;
+    padding: 10px;
+    text-align: center;
+    max-width: 90%;
+  }
+
+  .contactop1 {
+    font-size: 14px;
+    padding: 8px;
+  }
+
+  .contacto1 {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .contacto1 iframe {
+    width: 100%;
+    height: 250px;
+  }
+
+  .span1 {
+    font-size: 14px;
+    max-width: 100%;
+    padding: 10px 0;
+  }
+
+  .contactoh1 {
+    font-size: 20px;
+  }
+
+  .editgaleria1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding: 20px;
+  }
+
+  .h33 {
+    font-size: 20px;
+    text-align: center;
+    margin: 30px auto 20px auto;
+    padding: 10px;
+    line-height: 1.4;
+    display: block;
+    width: 100%;
+  }
+
+  .videos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+  }
+
+  .videos iframe {
+    width: 90%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 10px;
+  }
+
+  .titindex,
+  .titulogustos {
+    font-size: 22px;
+    margin: 20px 0;
+    text-align: center;
+  }
+ 
+}
