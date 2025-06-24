@@ -179,19 +179,18 @@ body {
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
   padding: 20px;
-  height: 760px;
   background-color: rgb(219, 187, 187);
+  
 }
 .editgaleria1 .item {
   display: grid;
   grid-template-columns: 1fr 1.5fr;
-  align-items: center;
   gap: 10px;
-  text-align: center;
+  text-align: start;
+  align-items: center;
 }
 .editgaleria1 .texto1 {
   text-align: center;
-  height: 200px;
   margin: 10px 10px;
 }
 
@@ -430,6 +429,7 @@ body {
   font-size: 20px;
 }
 
+
 .gustos-comunes {
   display: flex;
   flex-wrap: wrap;
@@ -526,6 +526,7 @@ body {
   background-color: rgb(163, 165, 153);
 }
 
+
 .seccion1 .tit1, .seccion1 .titindex {
   color: rgb(24, 14, 63);
   text-align: center;
@@ -536,6 +537,7 @@ body {
   font-size: 24px;
   margin-bottom: 10px;
 }
+
 .seccion1 .h2principal {
   color: rgb(24, 14, 63);
   font-size: large;
@@ -652,6 +654,8 @@ body {
   font-style: italic;
 }
 
+
+
 .titregis2 {
   padding: 10px;
   color: rgb(24, 14, 63);
@@ -682,6 +686,8 @@ body {
 .row {
   margin-bottom: 100px;
   margin-top: 30px;
+  width: 1350px;
+  align-items: center;
 }
 
 .registro h2 {
@@ -782,11 +788,7 @@ body {
 
 
 
-------------------------------
-
-
-MEDIA CEL
----------------------------------
+/* MEDIA CEL */
 
 @media (max-width: 480px) {
   .seccion1 {
@@ -940,9 +942,6 @@ MEDIA CEL
     margin: 20px 0;
     text-align: center;
   }
-  .editgaleria1{
-    display: none;
-  }
 }
 
   
@@ -1021,9 +1020,15 @@ MEDIA CEL
     height: auto;
     border-radius: 10px;
   }
-  .editgaleria1 {
-    height: 400px;
-  }
+  .row {
+  margin-bottom: 100px;
+  margin-top: 30px;
+  width: 100%;
+  align-items: center;
+}
+}
+.texto1{
+  text-align: center;
 }
 
 
@@ -1087,7 +1092,6 @@ MEDIA CEL
 
   .gale1 {
     height: 280px;
-    width: ;
   }
 
   .item {
@@ -1182,3 +1186,4 @@ MEDIA CEL
   }
  
 }
+
