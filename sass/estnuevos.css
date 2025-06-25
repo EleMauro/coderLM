@@ -1,0 +1,1038 @@
+/* reset para que tenga bien los bordes */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* HEADER */
+/* variable */
+header {
+  text-align: right;
+  width: 100%;
+  height: 200px;
+  background-image: url(../fotosCosas/logo.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 30% 30%;
+}
+header ul {
+  text-align: left;
+  padding: 10px;
+}
+
+.probandopadre,
+.probandohijo,
+.probandohijo a {
+  font-family: initial;
+  color: initial;
+}
+
+.usvip1 {
+  display: block;
+  width: 100%;
+  padding: 3px;
+  background-color: rgb(206, 206, 206), 206, 206;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+}
+
+.probandopadre {
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.probandopadre .probandohijo {
+  border: 2px double blanchedalmond width 80px;
+  margin-left: 10px;
+  font-size: 17px;
+}
+
+.t1t {
+  flex: 1;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.footerflex {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+.footerflex .red {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.footerflex .icono {
+  width: 30px;
+  height: 30px;
+}
+
+.alumno {
+  text-align: center;
+  color: rgb(36, 105, 105);
+  -webkit-text-decoration: underline double;
+          text-decoration: underline double;
+  padding: 10px;
+}
+
+footer {
+  background-color: rgb(226, 226, 153);
+}
+
+.inic {
+  padding: 5px 5px;
+}
+
+.sct1 {
+  background-color: rgb(206, 206, 206), 206, 206;
+}
+.sct1 .contactoh1 {
+  color: rgb(24, 14, 63);
+  text-align: center;
+  -webkit-text-decoration: underline double;
+          text-decoration: underline double;
+  padding: 10px;
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+  font-size: 20px;
+}
+.sct1 .contactop1 {
+  color: rgb(24, 14, 63);
+  font-size: large;
+  font-family: "Times New Roman", Times, serif;
+  padding: 20px;
+  height: 150px;
+}
+.sct1 .contacto1 {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  gap: 20px;
+  font-size: 20px;
+  text-decoration: underline;
+}
+.sct1 .span1 {
+  font-size: 14px;
+  max-width: 100%;
+  padding: 10px 0;
+}
+
+body {
+  background-color: rgb(206, 206, 206), 206, 206;
+}
+
+.formulario-contacto {
+  background-color: rgb(190, 185, 185);
+  padding: 30px;
+  border-radius: 12px;
+  max-width: 600px;
+  margin: 40px auto;
+  font-family: sans-serif;
+}
+
+.formulario-contacto h2 {
+  margin-bottom: 15px;
+  font-size: 24px;
+}
+
+.formulario-contacto form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.formulario-contacto textarea {
+  padding: 10px;
+  font-size: 16px;
+  resize: vertical;
+  border-radius: 8px;
+}
+
+.formulario-contacto button {
+  background-color: #d2691e;
+  font-size: 16px;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.gale1 .galepcipal {
+  color: rgb(24, 14, 63);
+  text-align: center;
+  -webkit-text-decoration: underline double;
+          text-decoration: underline double;
+  padding: 10px;
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+.gale1 .textogaleria {
+  color: rgb(24, 14, 63);
+  font-size: large;
+  font-family: "Times New Roman", Times, serif;
+  padding: 10px;
+  height: 150px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.gale1 .editgaleria1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  padding: 20px;
+}
+.gale1 .item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.gale1 .item img {
+  width: 90%;
+  max-width: 300px;
+  height: auto;
+  border-radius: 10px;
+}
+.gale1 .item .texto1,
+.gale1 .item .gale5,
+.gale1 .item .gale7 {
+  font-size: 15px;
+  line-height: 1.6;
+  padding: 10px;
+  max-width: 90%;
+  text-align: center;
+}
+.gale1 .h33 {
+  font-size: 20px;
+  text-align: center;
+  margin: 30px auto 20px auto;
+  padding: 10px;
+  line-height: 1.4;
+  display: block;
+  width: 100%;
+}
+.gale1 .videos {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 250px;
+  padding: 30px;
+  background-color: rgb(219, 187, 187);
+}
+.gale1 .videos .iframe {
+  width: 48%;
+  height: auto;
+}
+.gale1 .titindex,
+.gale1 .titulogustos {
+  font-size: 22px;
+  margin: 20px 0;
+  text-align: center;
+}
+
+.item img {
+  width: 100%;
+  max-width: 300px;
+  height: 220px;
+  border-radius: 10px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.item p {
+  font-size: 14px;
+  color: #333;
+}
+
+.editgal {
+  background-color: rgb(219, 187, 187);
+}
+
+.editgaleria {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 20px;
+  align-items: center;
+}
+
+.editgaleria img {
+  width: 100%;
+  border: black 1px solid;
+  height: auto;
+  border-radius: 10px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.editgaleria1 img {
+  border: black 1px solid;
+}
+
+.h31 {
+  color: rgb(24, 14, 63);
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+  margin-bottom: 50px;
+  font-size: 30px;
+}
+
+.h32 {
+  color: rgb(24, 14, 63);
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+  margin-top: 70px;
+  margin-bottom: 50px;
+  font-size: 30px;
+}
+
+.h33 {
+  color: rgb(24, 14, 63);
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+  margin-top: 80px;
+  margin-bottom: 60px;
+  font-size: 30px;
+}
+
+.videos {
+  display: flex;
+  flex-direction: row;
+  gap: 150px;
+  padding: 30px;
+  background-color: rgb(219, 187, 187);
+}
+
+.titulogustos {
+  color: rgb(24, 14, 63);
+  text-align: center;
+  -webkit-text-decoration: underline double;
+          text-decoration: underline double;
+  padding: 10px;
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  font-size: 30px;
+}
+
+.especial-casa {
+  padding: 20px;
+  background-color: rgb(206, 206, 206), 206, 206;
+  border-radius: 12px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+.especial-casa .subtitgustos {
+  color: rgb(24, 14, 63);
+  text-decoration: underline;
+  padding: 10px;
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  text-align: center;
+  font-size: 25px;
+  margin-bottom: 50px;
+}
+
+.sabor-item {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 10px;
+  background-color: rgb(163, 165, 153);
+}
+
+.sabor-texto {
+  flex: 1;
+  min-width: 250px;
+}
+
+.choco2 {
+  font-family: "Times New Roman", Times, serif;
+  color: rgb(24, 14, 63);
+  font-size: 30px;
+  font-size: 20px;
+}
+
+.choco3 {
+  font-family: "Times New Roman", Times, serif;
+  color: rgb(24, 14, 63);
+  font-size: 20px;
+}
+
+.sabor-imagen {
+  flex: 1;
+  text-align: center;
+}
+
+.choco1 {
+  width: 50%;
+}
+
+.promo-texto {
+  margin-top: 10px;
+  font-weight: bold;
+  color: rgb(24, 14, 63);
+  font-size: 16px;
+}
+
+.eleccion {
+  color: rgb(24, 14, 63);
+  text-decoration: underline;
+  padding: 10px;
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  text-align: center;
+  font-size: 25px;
+  margin-bottom: 50px;
+}
+
+.seccion-cucuruchos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 20px;
+  border-radius: 12px;
+  max-width: 900px;
+  margin: 0 auto;
+  align-items: center;
+  border-radius: 10px;
+  background-color: rgb(163, 165, 153);
+}
+
+.cucuruchos-texto {
+  flex: 1;
+  min-width: 280px;
+}
+
+/* cucuruchos gustos */
+.seccion-cucuruchos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 20px;
+  border-radius: 12px;
+  max-width: 900px;
+  margin: 0 auto;
+  align-items: center;
+  border-radius: 10px;
+  background-color: rgb(163, 165, 153);
+}
+.seccion-cucuruchos .cucuruchos-texto {
+  flex: 1;
+  min-width: 280px;
+}
+.seccion-cucuruchos .cucuruchos-texto ul {
+  padding-left: 20px;
+  margin-top: 10px;
+}
+.seccion-cucuruchos .cucuruchos-texto ul ul {
+  margin-top: 5px;
+  margin-left: 15px;
+  font-size: 14px;
+  color: #291515;
+}
+
+.cucuruchos-imagen {
+  flex: 1;
+  text-align: center;
+}
+
+.cucu2 {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.promo-cucuruchos {
+  margin-top: 10px;
+  font-weight: bold;
+  color: rgb(24, 14, 63);
+  font-size: 16px;
+}
+
+.gustoscom1 {
+  font-size: 20px;
+}
+
+.gustos-comunes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 25px;
+  border-radius: 12px;
+  max-width: 900px;
+  margin: 0 auto;
+  align-items: center;
+  border-radius: 10px;
+  background-color: rgb(163, 165, 153);
+}
+
+.eleccion {
+  color: rgb(24, 14, 63);
+  text-decoration: underline;
+  padding: 10px;
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  text-align: center;
+  font-size: 25px;
+  margin-bottom: 50px;
+}
+
+.eleccion2 {
+  color: rgb(24, 14, 63);
+  text-decoration: underline;
+  padding: 10px;
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  text-align: center;
+  font-size: 25px;
+  margin-bottom: 50px;
+}
+
+.gustos-comunes-texto {
+  flex: 1;
+  min-width: 250px;
+}
+
+.gustos-comunes-texto ul {
+  padding-left: 20px;
+  margin-top: 10px;
+}
+
+.gustos-comunes-img {
+  flex: 1;
+  text-align: center;
+}
+
+.comunes {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.promo-comunes {
+  margin-top: 10px;
+  font-weight: bold;
+  color: rgb(24, 14, 63);
+  font-size: 16px;
+}
+
+.gustos-comunes h2 {
+  font-family: "Times New Roman", Times, serif;
+  color: rgb(24, 14, 63);
+  font-size: 25px;
+}
+
+.cucu4 {
+  font-family: "Times New Roman", Times, serif;
+  color: rgb(24, 14, 63);
+  font-size: 20px;
+}
+
+.row {
+  margin-bottom: 100px;
+  margin-top: 30px;
+}
+.row .card-group {
+  text-align: center;
+  margin: 15px;
+  height: 180px;
+}
+.row .card-title {
+  font-size: px;
+}
+.row .card-body {
+  background-color: rgb(163, 165, 153);
+}
+
+.seccion1 .tit1, .seccion1 .titindex {
+  color: rgb(24, 14, 63);
+  text-align: center;
+  -webkit-text-decoration: underline double;
+          text-decoration: underline double;
+  padding: 10px;
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+.seccion1 .h2principal {
+  color: rgb(24, 14, 63);
+  font-size: large;
+  font-family: "Times New Roman", Times, serif;
+  padding: 20px;
+  height: 150px;
+}
+
+.titindex {
+  color: rgb(24, 14, 63);
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+  margin-top: 70px;
+  margin-bottom: 50px;
+  font-size: 30px;
+}
+
+.section1 {
+  line-height: 1.6;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  color: rgb(24, 14, 63);
+  font-size: large;
+  background-color: rgb(219, 187, 187);
+}
+
+.img2 {
+  width: 600px;
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.section2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  font-family: "Times New Roman", Times, serif;
+  color: rgb(24, 14, 63);
+  background-color: rgb(219, 187, 187);
+}
+
+img {
+  width: 50%;
+  border-radius: 10px;
+}
+img h3 {
+  text-decoration: underline;
+}
+
+.listasabores {
+  font-size: medium;
+}
+
+.imgsect3 {
+  width: 50%;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.section3 {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: text-start;
+  justify-content: space-around;
+  margin-top: 25px;
+  padding: 10px 10px;
+  font-family: "Times New Roman", Times, serif;
+  color: rgb(24, 14, 63);
+  font-size: large;
+  gap: 10px;
+  background-color: rgb(219, 187, 187);
+}
+
+.section3 p {
+  line-height: 1.6;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  color: rgb(24, 14, 63);
+  font-size: large;
+}
+
+.section3 p {
+  font-size: 16px;
+}
+
+.flexindex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+  padding: 30px;
+}
+
+.flexindex p {
+  font-size: 18px;
+  line-height: 1.6;
+  max-width: 600px;
+  color: rgb(24, 14, 63);
+  font-size: large;
+}
+
+.titregis {
+  font-size: 25px;
+  color: rgb(24, 14, 63);
+  text-align: center;
+  -webkit-text-decoration: underline double;
+          text-decoration: underline double;
+  padding: 10px;
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+}
+
+.titregis2 {
+  padding: 10px;
+  color: rgb(24, 14, 63);
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+  padding: 30px 10px;
+}
+
+.titregis3 {
+  font-family: "Times New Roman", Times, serif;
+  color: rgb(24, 14, 63);
+  font-size: 20px;
+  padding: 10px;
+  text-decoration: underline;
+}
+
+.registro {
+  max-width: 500px;
+  margin: auto;
+  padding: 25px;
+  background-color: #d6e4c7;
+  border-radius: 12px;
+  font-family: sans-serif;
+  margin-bottom: 200px;
+  margin-top: 60px;
+}
+
+.row {
+  margin-bottom: 100px;
+  margin-top: 30px;
+}
+
+.registro h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.registro form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.registro input[type=text],
+.registro input[type=password],
+.registro input[type=number],
+.registro input[type=email] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 15px;
+}
+
+.registro button {
+  margin-top: 15px;
+  background-color: #37a8f8;
+  color: white;
+  padding: 12px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+}
+
+.titregis {
+  animation-name: anim1;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-delay: 1.5s;
+}
+
+@keyframes anim1 {
+  0% {
+    color: yellow;
+    transform: translate(25px);
+  }
+  25% {
+    color: 0;
+    transform: rotate(2deg);
+  }
+  50% {
+    color: #333;
+  }
+  100% {
+    color: yellowgreen;
+    transform: scale(1.1, 1.1);
+    transform: rotate(-2deg);
+  }
+}
+.h31 {
+  animation-name: anim2;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-delay: 1.5s;
+}
+
+@keyframes anim2 {
+  0% {
+    color: rgb(150, 150, 148);
+    transform: translate(25px);
+  }
+  25% {
+    color: 0;
+    transform: rotate(1deg);
+  }
+  50% {
+    color: #333;
+  }
+  100% {
+    color: rgb(27, 27, 26);
+    transform: scale(1.1, 1.1);
+    transform: rotate(-1deg);
+  }
+}
+.h32 {
+  animation-name: anim2;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-delay: 1.5s;
+}
+
+.h33 {
+  animation-name: anim2;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-delay: 1.5s;
+}
+
+@media (max-width: 480px) {
+  .seccion1 {
+    padding: 10px;
+    text-align: center;
+    height: 400px;
+  }
+  .flexindex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    padding: 30px;
+    text-align: center;
+  }
+  .flexindex p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  .section2,
+  .section3 {
+    flex-direction: column;
+    padding: 20px;
+    text-align: center;
+  }
+  .section2 img,
+  .section3 img {
+    width: 80%;
+    border-radius: 10px;
+  }
+  .section2 p,
+  .section3 p {
+    font-size: 16px;
+  }
+  .lista.sabores {
+    font-size: 16px;
+    padding-left: 0;
+  }
+  .img3,
+  .imgsect3 {
+    width: 100%;
+    margin-top: 20px;
+  }
+  .usvip1 {
+    display: flex;
+    width: 100%;
+    background-color: rgb(206, 206, 206);
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    flex-wrap: wrap;
+  }
+  .gale1 {
+    height: 500px;
+  }
+  .item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+  }
+  .item img {
+    width: 90%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 10px;
+  }
+  .item p,
+  .item .texto1,
+  .item .gale5,
+  .item .gale7 {
+    font-size: 15px;
+    line-height: 1.6;
+    padding: 10px;
+    text-align: center;
+    max-width: 90%;
+  }
+  .editgaleria1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding: 20px;
+  }
+  .h33 {
+    font-size: 20px;
+    text-align: center;
+    margin: 30px auto 20px auto;
+    padding: 10px;
+    line-height: 1.4;
+    display: block;
+    width: 100%;
+  }
+  .videos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+  }
+  .videos iframe {
+    width: 90%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 10px;
+  }
+  .titindex,
+  .titulogustos {
+    font-size: 22px;
+    margin: 20px 0;
+    text-align: center;
+  }
+  .contactop1 {
+    font-size: 14px;
+    padding: 8px;
+  }
+  .contacto1 {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .contacto1 iframe {
+    width: 100%;
+    height: 250px;
+  }
+  .span1 {
+    font-size: 14px;
+    max-width: 100%;
+    padding: 10px 0;
+  }
+  .contactoh1 {
+    font-size: 20px;
+  }
+}
+@media (min-width: 481px) and (max-width: 768px) {
+  .flexindex {
+    flex-direction: column;
+    padding: 20px;
+    text-align: center;
+  }
+  .section2,
+  .section3 {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    text-align: center;
+  }
+  .img2,
+  .img3,
+  .imgsect3 {
+    width: 90%;
+    max-width: 500px;
+    margin: 0 auto;
+    display: block;
+  }
+  .titindex {
+    font-size: 24px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+  }
+  .listasabores {
+    font-size: 16px;
+    padding-left: 0;
+    text-align: center;
+  }
+  .h33 {
+    font-size: 24px;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 30px;
+  }
+  .videos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+  }
+  .videos iframe {
+    flex: 1 1 45%;
+    max-width: 100%;
+    height: auto;
+  }
+  .editgaleria {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  .editgaleria img {
+    width: 90%;
+    max-width: 500px;
+    height: auto;
+    border-radius: 10px;
+  }
+  .editgaleria1 {
+    height: 400px;
+  }
+  .editgaleria1 .item img {
+    width: 45%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 10px;
+  }
+  .editgaleria1 .item p {
+    width: 45%;
+    font-size: 15px;
+    line-height: 1.6;
+    padding: 10px;
+    text-align: center;
+  }
+}/*# sourceMappingURL=estnuevos.css.map */
